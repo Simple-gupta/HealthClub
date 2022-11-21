@@ -1,0 +1,126 @@
+<!-- place an appointment -->
+<style>
+    .main {
+        background-color: #CFECEC;
+    }
+
+    body {
+
+        background-color: #CFECEC;
+
+    }
+</style>
+
+<div class="main">
+    <h1 style="text-align: center; color:#307D7E; ">Place Appointment</h1>
+    <!-- form starts -->
+    <form style="margin:20px;">
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputEmail4">Name *</label>
+                <input type="text" class="form-control" id="inputEmail4" placeholder="Name" requied>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputPassword4">Age</label>
+                <input type="number" class="form-control" id="inputPassword4" placeholder="Age">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputPassword4">Mobile Number</label>
+                <input type="text" class="form-control" id="inputPassword4" placeholder="Mobile number">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputAddress">Address line 1</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="form-group">
+            <label for="inputAddress2">Address line 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputCity">City</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputState">State</label>
+                <select id="inputState" class="form-control">
+                    <option selected>State</option>
+                    <option>Bihar</option>
+                    <option>Odisha</option>
+                    <option>West Bengal</option>
+                    <option>Karnataka</option>
+                    <option>Up</option>
+                </select>
+            </div>
+
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputEmail4">Country</label>
+                <select id="inputState" class="form-control">
+                    <option selected>Country</option>
+                    <option>India</option>
+                    <option>Russia</option>
+                    <option>South Korea</option>
+                    <option>America</option>
+                    <option>Africa</option>
+                </select>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="inputPassword4">Pincode</label>
+                <input type="number" class="form-control" id="inputPassword4" placeholder="Pincode">
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputEmail4">Trainer Preference</label>
+                <tr style="margin-left:20px;">
+                    <td><input type="radio">Male Trainer</td>
+                    <td><input type="radio">Female Trainer</td>
+                    <td><input type="radio">No preference</td>
+                </tr>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputEmail4">Do you need Physiotherepist</label>
+                <tr style="margin-left:20px;">
+                    <td><input type="radio">Yes</td>
+                    <td><input type="radio">No</td>
+
+                </tr>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="inputEmail4">Select a Package</label>
+                <tr style="margin-left:20px;">
+                    <td><input type="radio">One time appointment (Rs 500/-)</td>
+                    <td><input type="radio">4 sessions per week (Rs 400/- per session)</td>
+                    <td><input type="radio">5 sessions per week (Rs 300/- per session)</td>
+                </tr>
+            </div>
+        </div>
+
+        <div class="form-group ">
+            <label for="inputEmail4">Weeks</label>
+            <input type="number" class="form-control" id="inputEmail4" placeholder="weeks">
+        </div>
+        <div class="form-group ">
+            <label for="inputPassword4">Amount</label>
+            <input type="number" class="form-control" id="inputPassword4" placeholder="amount">
+        </div>
+        <p align="right">
+            <button type="submit" class="btn btn-primary" style="background-color:#307D7E">Submit</button>
+        </p>
+    </form>
+    <!-- form ends -->
+</div>
